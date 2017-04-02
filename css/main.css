@@ -100,7 +100,7 @@ textarea {
      background-color: #222;
    }
 
-   h1 , h2 , hr
+   h1 , h2 , hr , h3
    {
      color: #e6d4a6;
    }
@@ -140,36 +140,42 @@ textarea {
      height: 100vh;
    }
 
-   h1
+   .titre
    {
-     margin-left: 1em;
-     margin-top: 1em;
+     margin-left: 4em;
+     margin-top: 2em;
+     font-family: courier;
    }
-
-   .titre , .photo
-   {
-     display: inline-block;
-   }
-
-   .photo
-   {
-     float: right;
-   }
-
-   h3
-   {color: blue;}
    /*end header rules*/
 
 
 
+   /*section class container rules*/
+   .separation
+   {
+     margin-left: 3em;
+     margin-right: 3em;
+   }
 
-   /*section rules*/
-   section p
+   h4
+   {
+     margin-left: 1em;
+   }
+   .containers p
    {
      color: white;
-     font-family: fantasy;
+     margin: 1em 1em 1em 1em;
    }
    /*end section rules*/
+
+
+
+   /*footer rules*/
+   footer p
+   {
+     color: white;
+   }
+   /*end footer rules*/
 
 
 

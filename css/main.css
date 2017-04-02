@@ -122,15 +122,24 @@ textarea {
   /*rules nav class top*/
   nav
   {
-    /*margin-top: 3em;
-    margin-left: 1em;
-    word-spacing: 1em;*/
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background-color: #e6d4a6;
+    font-size: 20px;
+    padding-left: 3em;
+    word-spacing: 2em;
   }
   /*end rules nav class top*/
 
 
 
    /*header rules*/
+   .fullscreen figure img
+   {
+     height: 100vh;
+   }
+
    h1
    {
      margin-left: 1em;
@@ -148,9 +157,7 @@ textarea {
    }
 
    h3
-   {
-     display: none;
-   }
+   {color: blue;}
    /*end header rules*/
 
 

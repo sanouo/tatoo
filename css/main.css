@@ -164,7 +164,7 @@ textarea {
    .containers p
    {
      color: white;
-     margin: 1em 1em 1em 1em;
+     margin: 2em 2em 2em 2em;
    }
    /*end section rules*/
 
@@ -238,12 +238,13 @@ textarea {
 
 
 
-   /*rules page catalogue*/
-   /*section rules*/
-   .galerie img
+   /*rules page blog*/
+   .paragraphe
    {
-     display: inline-block;
+     color: white;
    }
+   /*end rules page blog*/
+
 
 
 
